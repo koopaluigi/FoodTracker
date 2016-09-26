@@ -13,6 +13,7 @@
 		3C1D50111D90EEB200C39EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1D50101D90EEB200C39EB6 /* Assets.xcassets */; };
 		3C1D50141D90EEB200C39EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1D50121D90EEB200C39EB6 /* LaunchScreen.storyboard */; };
 		3C1D501F1D90EEB200C39EB6 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D501E1D90EEB200C39EB6 /* FoodTrackerTests.swift */; };
+		3C1D502A1D98C2C000C39EB6 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1D50291D98C2C000C39EB6 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3C1D501A1D90EEB200C39EB6 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1D501E1D90EEB200C39EB6 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		3C1D50201D90EEB200C39EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1D50291D98C2C000C39EB6 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				3C1D50091D90EEB200C39EB6 /* AppDelegate.swift */,
 				3C1D500B1D90EEB200C39EB6 /* ViewController.swift */,
 				3C1D500D1D90EEB200C39EB6 /* Main.storyboard */,
+				3C1D50291D98C2C000C39EB6 /* RatingControl.swift */,
 				3C1D50101D90EEB200C39EB6 /* Assets.xcassets */,
 				3C1D50121D90EEB200C39EB6 /* LaunchScreen.storyboard */,
 				3C1D50151D90EEB200C39EB6 /* Info.plist */,
@@ -145,9 +148,11 @@
 				TargetAttributes = {
 					3C1D50051D90EEB200C39EB6 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					3C1D50191D90EEB200C39EB6 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3C1D50051D90EEB200C39EB6;
 					};
 				};
@@ -197,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C1D500C1D90EEB200C39EB6 /* ViewController.swift in Sources */,
+				3C1D502A1D98C2C000C39EB6 /* RatingControl.swift in Sources */,
 				3C1D500A1D90EEB200C39EB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +336,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -341,6 +348,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -352,6 +360,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
 			name = Debug;
@@ -364,6 +373,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
 			name = Release;
@@ -387,6 +397,7 @@
 				3C1D50251D90EEB200C39EB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C1D50261D90EEB200C39EB6 /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +406,7 @@
 				3C1D50281D90EEB200C39EB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
